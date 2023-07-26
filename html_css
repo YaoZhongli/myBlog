@@ -6,3 +6,23 @@ rem：相对于html根目录的font-size大小
 转换工具：
 1.安装插件px2rem
 2.安装插件lib-flexible
+
+1.	Js保留小数点后两位或者指定位数num
+ toFixed(num)
+2.	For循环continue, break, return
+Continue：当前for循环，跳出本次循环，继续下一次循环
+Break：当前for循环，终止循环
+Return：返回到函数进程中，返回时附带一个返回值。Return后函数就结束了，后面的语句不再执行
+3.	forEach
+跳出本次循环，开始下一次循环：return
+终止当前循环：
+Try{
+   forEach() {
+		throw new Error(); 
+}
+}
+Catch (e){}
+跳出forEach嵌套循环，内层不能用catch，要用try{} finally{}
+4.	for....in和for....of循环
+break 终止当前循环
+
