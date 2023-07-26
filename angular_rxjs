@@ -1,1 +1,8 @@
-1.
+1.	ng-zorro  
+nz-toolTip鼠标悬浮时显示提示文字 ，引入NzToolTipModule
+2.	
+PercentPipe
+Percent: ‘ 1.2-3 ’
+1-	小数点前的最小整数位数。默认1
+2-	小数点后的最小位数。默认为0
+3-	小数点后的最大为主。默认为0
