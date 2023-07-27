@@ -26,3 +26,30 @@ Catch (e){}
 4.	for....in和for....of循环
 break 终止当前循环
 
+meta
+<head>
+<!--  声明文档使用的字符编码-->
+  <meta charset="utf-8">
+  <title>MyApp</title>
+  <base href="/">
+<!--  控制页面在移动设备上的显示方式，如缩放级别和页面宽度-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="关键字, 关键字2">
+  <meta name="author" content="指定页面作者">
+  <meta name="description" content="页面描述内容">
+<!--  告诉浏览器不要缓存页面-->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+<!--  自动刷新-->
+  <meta http-equiv="refresh" content="30">
+<!--  在指定时间间隔后，自动将用户重定向到其他页面-->
+<!--  <meta http-equiv="refresh" content="5;URL=http://baidu.com/index.html">-->
+<!--  兼容模式: 指定浏览器（如IE）使用特定的渲染模式-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--  搜索引擎索引控制:指示搜索引擎是否应索引页面和跟踪链接-->
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+
